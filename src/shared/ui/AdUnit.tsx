@@ -13,7 +13,7 @@ const HIDE_AFTER_MS = 10_000;
 export default function AdUnit({
   slot,
   format = "auto",
-  label = "Ads keep Terraink free",
+  label = "Ads keep Saywiti free",
   className,
 }: AdUnitProps) {
   const insRef = useRef<HTMLModElement>(null);

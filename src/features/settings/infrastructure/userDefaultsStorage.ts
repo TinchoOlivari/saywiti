@@ -1,6 +1,6 @@
 import type { UserDefaults } from "../domain/types";
 
-const STORAGE_KEY = "terraink:user-defaults";
+const STORAGE_KEY = "saywiti:user-defaults";
 
 function isBrowserStorageAvailable(): boolean {
   return (

@@ -37,10 +37,10 @@ export default function AdBlockModal({
           {variant === "warning" ? (
             <>
               <p className="support-modal__headline" id="adblock-modal-title">
-                Ads keep Terraink free
+                Ads keep Saywiti free
               </p>
               <p className="support-modal__text">
-                Terraink is 100% free. Ads help cover server and development
+                Saywiti is 100% free. Ads help cover server and development
                 costs — please consider disabling your ad blocker to support
                 the project.
               </p>

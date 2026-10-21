@@ -303,7 +303,7 @@ export async function createLayeredSvgBlobFromMap({
 
     const toImageLayer = (layer: { id: string; dataUrl: string }) => ({
       id: layer.id,
-      markup: `<image href="${layer.dataUrl}" width="${exportWidth}" height="${exportHeight}" preserveAspectRatio="none" />`,
+      markup: `<image xlink:href="${layer.dataUrl}" width="${exportWidth}" height="${exportHeight}" preserveAspectRatio="none" />`,
     });
 
     const mapGroups = toSvgGroups(
@@ -318,7 +318,7 @@ export async function createLayeredSvgBlobFromMap({
     // Vector geometry extends past the poster edge; the clip keeps the artwork
     // inside the page instead of relying on viewBox overflow behaviour.
     const svg = `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="${exportWidth}" height="${exportHeight}" viewBox="0 0 ${exportWidth} ${exportHeight}">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${exportWidth}" height="${exportHeight}" viewBox="0 0 ${exportWidth} ${exportHeight}">
 <defs><clipPath id="poster-frame"><rect width="${exportWidth}" height="${exportHeight}" /></clipPath></defs>
 <g clip-path="url(#poster-frame)">
 ${mapGroups}

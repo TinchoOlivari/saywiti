@@ -26,10 +26,10 @@ import {
   recordAdBlockDownload,
 } from "@/features/export/application/adBlockLimit";
 
-export const ADBLOCK_LIMIT_EVENT = "terraink:adblock-limit";
-export const ADBLOCK_WARN_EVENT = "terraink:adblock-warn";
+export const ADBLOCK_LIMIT_EVENT = "saywiti:adblock-limit";
+export const ADBLOCK_WARN_EVENT = "saywiti:adblock-warn";
 
-const EXPORT_COUNT_STORAGE_KEY = "terraink.poster.count";
+const EXPORT_COUNT_STORAGE_KEY = "saywiti.poster.count";
 
 export type SupportPromptVariant = "first" | "milestone" | "ad";
 
@@ -38,7 +38,7 @@ export interface SupportPromptState {
   variant: SupportPromptVariant;
 }
 
-export const SUPPORT_PROMPT_EVENT = "terraink:support-prompt";
+export const SUPPORT_PROMPT_EVENT = "saywiti:support-prompt";
 
 // Use a 1-year TTL so the export count persists across sessions.
 const EXPORT_COUNT_TTL_MS = 365 * 24 * 60 * 60 * 1000;

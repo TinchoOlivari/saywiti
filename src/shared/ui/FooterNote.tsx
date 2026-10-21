@@ -59,7 +59,7 @@ export default function FooterNote() {
 
       <div className="desktop-footer-middle">
         <p className="made-note">
-          Terraink™ v{appVersion} | © 2026 | Made with{" "}
+          Saywiti v{appVersion} | © 2026 | Made with{" "}
           <span className="heart">❤︎</span> in Hannover, Germany
         </p>
       </div>

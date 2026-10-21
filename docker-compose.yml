@@ -1,10 +1,10 @@
 services:
-  terraink:
+  saywiti:
     build:
       context: .
       dockerfile: Dockerfile
-    image: terraink:latest
-    container_name: terraink
+    image: saywiti:latest
+    container_name: saywiti
     ports:
       - "${APP_PORT:-7200}:80"
     restart: unless-stopped

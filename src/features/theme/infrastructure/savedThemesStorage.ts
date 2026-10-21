@@ -1,6 +1,6 @@
 import type { SavedTheme } from "../domain/types";
 
-const STORAGE_KEY = "terraink:saved-themes";
+const STORAGE_KEY = "saywiti:saved-themes";
 
 function isBrowserStorageAvailable(): boolean {
   return typeof window !== "undefined" && typeof window.localStorage !== "undefined";

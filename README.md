@@ -1,3 +1,17 @@
+# Saywiti: Beautiful Maps
+
+Saywiti is a fork of [Terraink](https://github.com/yousifamanuel/terraink) by Yousuf Amanuel, licensed under AGPL-3.0 (see `LICENSE`, `LICENSE-OLD`, `TRADEMARK.md`). It is not affiliated with or endorsed by Terraink.
+
+Changes in this fork:
+
+- Merges upstream PR #147: real vector SVG export, cycle ways, country borders, boundary clipping.
+- Adds `xlink:href` on raster overlay layers so the SVG opens in Adobe Illustrator.
+- Renames the app and replaces the logo and icons.
+
+Source code: https://github.com/TinchoOlivari/saywiti
+
+---
+
 ![](./public/assets/banner.png)
 
 # Terraink

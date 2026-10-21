@@ -1,5 +1,5 @@
-const CACHE_NAME = "terraink-static-v2";
-const TILE_CACHE_NAME = "terraink-tiles-v1";
+const CACHE_NAME = "saywiti-static-v2";
+const TILE_CACHE_NAME = "saywiti-tiles-v1";
 const TILE_ORIGINS = ["https://tiles.openfreemap.org"];
 const APP_SHELL_ASSETS = [
   "/",
