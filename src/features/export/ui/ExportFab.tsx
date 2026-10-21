@@ -7,7 +7,7 @@ import SocialLinkGroup from "@/shared/ui/SocialLinkGroup";
 const FORMAT_OPTIONS: { format: ExportFormat; label: string }[] = [
   { format: "png", label: "PNG" },
   { format: "pdf", label: "PDF" },
-  { format: "svg", label: "RSVG" },
+  { format: "svg", label: "SVG" },
 ];
 
 interface ExportFabProps {

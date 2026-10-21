@@ -59,8 +59,7 @@ export default function FooterNote() {
 
       <div className="desktop-footer-middle">
         <p className="made-note">
-          Saywiti v{appVersion} | © 2026 | Made with{" "}
-          <span className="heart">❤︎</span> in Hannover, Germany
+          Saywiti v{appVersion} | © 2026 | Con amor para Viki ❤️
         </p>
       </div>
 
